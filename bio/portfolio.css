@@ -1,0 +1,31 @@
+.name {
+    color: #f33c5a;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1;
+    float: left;
+    text-indent: 20px;
+}
+
+.body {
+    background: url(https://images.vexels.com/media/users/3/78432/raw/5040933959c24ecd6eae7cfe65302e19-honeycomb-hexagonal-background.jpg);
+    background-repeat: repeat-y;
+}
+
+.links a{
+    color: #f33c5a;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-right: 0;
+    left: 10px;
+    text-decoration: none;
+}
+.links {
+    float: right;
+    position: relative;
+    top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px; 
+    padding-right: 20px;
+}
+
