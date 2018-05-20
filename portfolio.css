@@ -1,0 +1,105 @@
+#background {
+    background-image: url(https://images.vexels.com/media/users/3/78432/raw/5040933959c24ecd6eae7cfe65302e19-honeycomb-hexagonal-background.jpg);
+    background-repeat: repeat-y;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+    z-index: -1;
+}
+
+.name {
+    color: #f33c5a;
+    font-family: 'Kelly Slab', cursive;
+    opacity: 1;
+    float: left;
+    text-indent: 20px;
+    z-index: 1;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    position: absolute;
+}
+
+.links a{
+    color: #f33c5a;
+    font-weight: bold;
+    font-family: 'Kelly Slab', cursive;
+    margin-top: 0;
+    margin-right: 0;
+    left: 10px;
+    text-decoration: none;
+}
+
+#left {
+    color: #f33c5a;
+    float: right;
+    width: 25%;
+    padding-top: 20px;
+    position: fixed;
+    top: 10px;
+    font-family: 'Kelly Slab', cursive;
+    right: -7px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#center {
+    color: #f33c5a;
+    float: right;
+    width: 25%;
+    padding-top: 20px;
+    position: fixed;
+    top: 10px;
+    font-family: 'Kelly Slab', cursive;
+    right: -100px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#right {
+    color: #f33c5a;
+    float: right;
+    width: 25%;
+    padding-top: 20px;
+    position: fixed;
+    top: 10px;
+    right: -200px;
+    font-family: 'Kelly Slab', cursive;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    height: 100%;
+    width: 78%;
+    margin: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-right: 200px; 
+}
+
+p {
+    font-family: 'Kelly Slab', cursive;
+}
+
+.photo {
+    margin-top: 70px;
+    float:right;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+.full {
+    float: right;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(238, 230, 230, 0.4);
+}
+
+img {
+    max-width: 225px;
+    height: 225px;
+}
